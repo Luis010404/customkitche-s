@@ -12,17 +12,10 @@ body{
 header{
    margin: 0%;
 }
-#container{
-    background-color: beige;
-    height: 500px;
-    width: 1100px;
-    margin: 0px auto;
 
-    
-}
 .container-fluid{
     margin: 0px;
-    background-color:rgb(129, 97, 55);
+    background-color:rgba(163, 107, 22, 0.589);
     height: 75px;
 }
 .nav-link{
@@ -31,4 +24,30 @@ header{
 }
 .navbar-brand{
     font-size: 45px;
+}
+#container{
+    background-color: beige;
+    height: 800px;
+    width: 1300px;
+    margin: 0px auto;
+}
+
+.titulo1{
+    align-content: center;
+    text-align: left;
+    margin-bottom: 0px;
+    width: 90%;
+    border-bottom: 2px solid gray ;
+}
+#carouselExampleIndicators{
+    margin:30px auto;    
+    width: 90%;
+}
+.carousel-inner{
+    height: 550px;
+    align-content: center;
+}
+.carousel-item{
+    height: 65vh;
+    align-content: center;
 }
