@@ -7,7 +7,7 @@ html,body{
 body{
     margin: 0;
     padding: 0%;
-    background-image: url(/home/luiscv/Documentos/customkitchen/images/fondo-textura-madera.jpg);
+    background-image: url(./images/fondo-textura-madera.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -17,6 +17,23 @@ header{
    padding: 0%;
    border: 3px solid red;
    
+}
+
+.line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.line {
+    width: 90%;
+    border: 1px solid black;
+}
+
+.navbar {
+    padding: 0;
 }
 
 .container-fluid{
@@ -47,7 +64,6 @@ header{
     text-align: left;
     margin-bottom: 0px;
     width: 90%;
-    border-bottom: 2px solid gray ;
 }
 #carouselExampleIndicators{
     margin:30px auto;    
