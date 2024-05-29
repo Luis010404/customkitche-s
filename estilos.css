@@ -15,7 +15,7 @@ body{
 header{
    margin: 0% auto;
    padding: 0%;
-   border: 3px solid red;
+   
    
 }
 
@@ -41,7 +41,7 @@ header{
     padding: 0%;
     background-color:rgba(163, 107, 22, 0.589);
     height: 75px;
-    border: 3px solid brown;
+    
 }
 
 .nav-link{
@@ -63,6 +63,7 @@ header{
     align-content: center;
     text-align: left;
     margin-bottom: 0px;
+    margin-left: 65px;
     width: 90%;
 }
 #carouselExampleIndicators{
@@ -81,7 +82,7 @@ img{
     height: 400px;
 }
 footer{
-    background-color: black;
+    background-color: rgba(163, 107, 22, 0.589);;
     width: 1300px;
     text-align: center;
     color: blanchedalmond;
